@@ -27,7 +27,7 @@ function App4(){
             setMusic(res.data)
             //setCurpage(res.data.curpage)
             //setTotal(res.data.totalpage); // total=res.data.totalpage => 오류 발생
-                                          // const => 상수 => 임의의 수 X => setter함수 사용
+            // const => 상수 => 임의의 수 X => setter함수 사용
         })
     },[fd]) // 현재 페이지([]안의 변수)가 변경되면 다시 수행
     /*
